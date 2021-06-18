@@ -1,0 +1,11 @@
+
+k
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(áÇ«úÿÿÿÿ
+<	java:S108")Either remove or fill this block of code.(”ı¾
+?
+java:S5960"+Remove this assertion from production code.(ì•áà
+>
+java:S1659"%Declare "counter" on a separate line.(•İº¤øÿÿÿÿ
+Y	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(›‚€Ù
+<
+java:S1659"#Declare "begin" on a separate line.(•İº¤øÿÿÿÿ

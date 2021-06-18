@@ -1,0 +1,30 @@
+
+l
+java:S1854"JRemove this useless assignment to local variable "zonedDateTimeFromLocal".(ğŠÌØşÿÿÿÿ8®Ë¦Íş.
+J
+java:S1481("(Remove this unused "sum" local variable.(Œ­¢ğÿÿÿÿÿ8®Ë¦Íş.
+q
+java:S1192"TDefine a constant instead of duplicating this literal "America/Los_Angeles" 3 times.(ßÌéê8®Ë¦Íş.
+I
+java:S1128"-Remove this unused import 'org.junit.Assert'.(­ŞL8®Ë¦Íş.
+]
+java:S1481";Remove this unused "zonedDateTimeFromLocal" local variable.(ğŠÌØşÿÿÿÿ8®Ë¦Íş.
+M
+java:S5960"+Remove this assertion from production code.(Åå¸‡ÿÿÿÿÿ8®Ë¦Íş.
+Y
+java:S1854("7Remove this useless assignment to local variable "sum".(Œ­¢ğÿÿÿÿÿ8®Ë¦Íş.
+T
+java:S1481"7Remove this unused "localZonedDateTime" local variable.(¡‚Ô‰8®Ë¦Íş.
+a
+java:S1854"DRemove this useless assignment to local variable "zonedDateTimeNow".(éâ¥í8®Ë¦Íş.
+Y
+java:S1854-"7Remove this useless assignment to local variable "res".(Ëê˜ğÿÿÿÿÿ8Î§Íş.
+R
+java:S1481"5Remove this unused "zonedDateTimeNow" local variable.(éâ¥í8®Ë¦Íş.
+J
+java:S1481-"(Remove this unused "res" local variable.(Ëê˜ğÿÿÿÿÿ8Î§Íş.
+a
+java:S1854"DRemove this useless assignment to local variable "zonedDateTimeNow".(ßÌéê8®Ë¦Íş.
+c
+java:S1854"FRemove this useless assignment to local variable "localZonedDateTime".(¡‚Ô‰8®Ë¦Íş.
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ù–ã¶ûÿÿÿÿ8®Ë¦Íş.
