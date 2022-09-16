@@ -17,7 +17,7 @@ public class FindSubstrings {
     public List<Integer> findSubstrings(String s, String[] words) {
 
         Map<String, Integer> map = new HashMap<>();
-        Arrays.stream(words).forEach(w -> map.merge(w, 1, (v, v1) -> v + v1));
+        Arrays.stream(words).forEach(w -> map.merge(w, 1, Integer::sum));
 
         int start = 0, end = 0, wordLen = words[0].length(), windowSize = wordLen * words.length;
         List<Integer> res = new ArrayList<>();
@@ -41,7 +41,7 @@ public class FindSubstrings {
 
                 if (end - start + wordLen == windowSize) {
                     if (counter == 0) {
-                            res.add(start);
+                        res.add(start);
                     }
 
                     String startWord = s.substring(start, start + wordLen);
@@ -92,8 +92,9 @@ public class FindSubstrings {
     }
 
     @Test
-    public void test6(){
-        List<Integer> res = new FindSubstrings().findSubstrings("bcabbcaabbccacacbabccacaababcbb", new String[]{"c","b","a","c","a","a","a","b","c"});
-        assertEquals(Arrays.asList(6,16,17,18,19,20),res);
+    public void test6() {
+        List<Integer> res = new FindSubstrings()
+                .findSubstrings("bcabbcaabbccacacbabccacaababcbb", new String[]{"c", "b", "a", "c", "a", "a", "a", "b", "c"});
+        assertEquals(Arrays.asList(6, 16, 17, 18, 19, 20), res);
     }
 }

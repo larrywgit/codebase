@@ -1,10 +1,7 @@
 package algorithms;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
-
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -19,9 +16,11 @@ public class FindPermutation {
 
         while (end < s2.length()) {
             char e = s2.charAt(end);
-            if (letterMap.keySet().contains(e)) {
+            if (letterMap.containsKey(e)) {
                 int count = letterMap.compute(e, (k, v) -> v = v - 1);
-                if (count ==0) counter--;
+                if (count == 0) {
+                    counter--;
+                }
             }
 
             while (counter == 0) {
@@ -30,9 +29,10 @@ public class FindPermutation {
                 }
                 char s = s2.charAt(start);
                 if (s1.indexOf(s) >= 0) {
-                    int count = letterMap.compute(s, (k,v) -> v= v+1);
-                    if ( count == 1)
-                        counter ++;
+                    int count = letterMap.compute(s, (k, v) -> v = v + 1);
+                    if (count == 1) {
+                        counter++;
+                    }
                 }
                 start++;
             }
