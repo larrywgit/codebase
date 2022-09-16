@@ -1,13 +1,0 @@
-
-F
-java:S1659"$Declare "result" on a separate line.(ö¬°Õûÿÿÿÿ8““…¢ÿ.
-H
-java:S59603"+Remove this assertion from production code.(«…ÿı8‹ÖÌ¢ÿ.
-C
-java:S1659"!Declare "end" on a separate line.(ö¬°Õûÿÿÿÿ8ÚÁš¢ÿ.
-t
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(‰ê­³şÿÿÿÿ8™Ë®¢ÿ.
-]
-java:S1854";Remove this useless assignment to local variable "counter".(ö¬°Õûÿÿÿÿ8¹ ¢ÿ.
-G
-java:S1659"%Declare "counter" on a separate line.(ö¬°Õûÿÿÿÿ8¿Ô¢ÿ.
